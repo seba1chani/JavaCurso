@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="poi-5.2.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-5.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-examples-5.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-excelant-5.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-ooxml-5.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-ooxml-full-5.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-ooxml-lite-5.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/commons-io-2.20.0-bin/commons-io-2.20.0/commons-io-2.20.0-tests.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/commons-io-2.20.0-bin/commons-io-2.20.0/commons-io-2.20.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/apache-log4j-2.25.2-bin/log4j-to-slf4j-2.25.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/apache-log4j-2.25.2-bin/log4j-api-2.25.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/lib/poi-bin-5.2.3-20220909/poi-bin-5.2.3/poi-javadoc-5.2.3.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/lib/commons-io-2.20.0-bin/commons-io-2.20.0/commons-io-2.20.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/commons-io-2.20.0-bin/commons-io-2.20.0/commons-io-2.20.0-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

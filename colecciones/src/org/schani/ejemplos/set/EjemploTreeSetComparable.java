@@ -2,12 +2,14 @@ package org.schani.ejemplos.set;
 
 import org.schani.ejemplos.modelos.Alumno;
 
+import static java.util.Comparator.comparing;
 import java.util.Set;
 import java.util.TreeSet;
 
 public class EjemploTreeSetComparable {
     public static void main(String[] args) {
-        Set<Alumno>sa= new TreeSet<>((a,b)->b.getNombre().compareTo(a.getNombre()));
+        //Set<Alumno>sa= new TreeSet<>((a,b)->b.getNombre().compareTo(a.getNombre()));
+        Set<Alumno>sa= new TreeSet<>(comparing(Alumno::getNombre).reversed());
         sa.add(new Alumno("Pato", 5));
         sa.add(new Alumno("Cata",6));
         sa.add(new Alumno("Luci",4));
