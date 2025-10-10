@@ -8,11 +8,11 @@ public class TestContar {
     public static void main(String[] args) {
         ContadorPalabras contar= frase->{
             Map<String,Integer> frecuencia= new HashMap<>();
-            String[]palabras= frase.split("[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ0-9]+");
+            String palabraMayus= frase.toUpperCase();
+            String[]palabras= palabraMayus.split("[^a-zA-ZáéíóúÁÉÍÓÚñÑüÜ0-9]+");
             for(String palabra: palabras){
                 if(!palabra.isEmpty()){
-                    String palabraMayus= palabra.toUpperCase();
-                    frecuencia.put(palabraMayus,frecuencia.getOrDefault(palabraMayus,0)+1);
+                    frecuencia.put(palabra,frecuencia.getOrDefault(palabra,0)+1);
                 }
             }
 
