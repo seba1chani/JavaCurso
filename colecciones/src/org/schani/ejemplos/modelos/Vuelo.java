@@ -43,8 +43,7 @@ public class Vuelo {
 
     @Override
     public String toString() {
-        return nombre= nombre + ", origen='" + origen +
-                ", destino='" + destino+ ", fechaYHora=" + fechaYHora +
-                ", cantidadPasajeros=" + cantidadPasajeros;
+        return nombre + ", origen='" + origen + "', destino='" + destino +
+                "', fechaYHora=" + fechaYHora + ", cantidadPasajeros=" + cantidadPasajeros;
     }
 }

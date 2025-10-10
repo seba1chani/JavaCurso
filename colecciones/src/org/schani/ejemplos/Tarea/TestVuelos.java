@@ -9,6 +9,7 @@ public class TestVuelos {
     public static void main(String[] args) {
         Vuelos gestionVuelos= new Vuelos();
         gestionVuelos.cargarVuelos();
+        System.out.println(gestionVuelos);
         //List<Vuelo>lista= gestionVuelos.getVuelos();
 /*
         Object a[]= lista.toArray();
@@ -20,8 +21,7 @@ public class TestVuelos {
  */
         System.out.println("==============================");
         gestionVuelos.ultimoVuelo();
-       // gestionVuelos.menosPasajeros();
-        System.out.println(gestionVuelos);
+        gestionVuelos.menosPasajeros();
 
 
     }
