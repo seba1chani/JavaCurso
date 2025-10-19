@@ -10,15 +10,6 @@ public class TestVuelos {
         Vuelos gestionVuelos= new Vuelos();
         gestionVuelos.cargarVuelos();
         System.out.println(gestionVuelos);
-        //List<Vuelo>lista= gestionVuelos.getVuelos();
-/*
-        Object a[]= lista.toArray();
-        System.out.println("Lista ordenada acendente ");
-        for(int i = 0; i <a.length ; i++) {
-            System.out.println(a[i]);
-        }
-
- */
         System.out.println("==============================");
         gestionVuelos.ultimoVuelo();
         gestionVuelos.menosPasajeros();

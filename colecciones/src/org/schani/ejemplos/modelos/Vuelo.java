@@ -1,7 +1,6 @@
 package org.schani.ejemplos.modelos;
 
 import java.time.LocalDateTime;
-import java.util.Objects;
 
 public class Vuelo {
     private String nombre;
