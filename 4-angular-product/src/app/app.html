@@ -1,12 +1,4 @@
-<div class="container py-4">
-  <div class="row">
-    <div class="col">
-      <product-form (addProductEvent)="addProduct($event)" [product]="productSelected" ></product-form>
-    </div>
-    <div class="col">
-      <table-product [products]="products"
-      (updateProductEvent)="onUpdateProductEvent($event)"
-      (removeProductEvent)="onRemoveProductEvent($event)"></table-product>
-    </div>
-  </div>
+<div>
+      <button type="button"><a href="/alta-productos">Alta-Productos</a></button>
 </div>
+<router-outlet></router-outlet>

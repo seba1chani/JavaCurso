@@ -3,14 +3,20 @@ import { ProductsComponents } from './components/products.components';
 import { Products } from './models/products';
 import { FormsComponents } from './components/forms.components';
 import Swal from 'sweetalert2';
-
+import { Router, RouterOutlet } from '@angular/router';
+import { AltaProductos } from './components/productos/alta/alta-productos/alta-productos';
 @Component({
   selector: 'app-root',
-  imports: [ProductsComponents,FormsComponents],
+  imports: [ProductsComponents, FormsComponents, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
+
 export class App implements OnInit{
+
+  constructor(private router:Router){
+    
+  }
 
     products: Products[] = [];
     countId=signal(3);
@@ -85,6 +91,8 @@ export class App implements OnInit{
    
   }
 
-    
+  navegarAHome():void {
+    this.router.navigate(['/alta-productos']);
+  }
     
 }
